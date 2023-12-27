@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+
+div {
+    width: 30%;
+    background-color: rgb(252, 206, 180);
+    margin: 200px auto;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+li{
+    padding: 10px;
+}
+
+a{
+    border-radius: 20px;
+    background-color: rgb(146, 146, 146);
+    margin: 15px;
+    padding: 10px;
+    text-decoration: none;
+}
