@@ -1,0 +1,155 @@
+:root{
+    font-family: "Lato";
+    color: rgba(0, 0, 0, 1);
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+header{
+    background-color: rgba(249, 247, 232, 1);
+    padding: 24px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 79px;
+}   
+
+.logo{
+    font-family: Courgette;
+    color: rgba(98, 191, 173, 1);
+    font-size: 32px;
+}
+
+.logo span{
+    font-family: Courgette;
+    color: rgba(0, 0, 0, 1);
+    font-size: 32px;
+}
+
+.menu {
+    display: flex;
+    gap: 21px;
+}
+
+.menu a{
+    color: #000;
+    font-size: 16px;
+}
+
+.section1{
+    background-color: rgba(213, 32, 71, 1);
+    padding: 198px 0 172px 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1{
+    font-family: Limelight;
+    font-size: 48px;
+    text-align: center;
+    text-transform: uppercase; 
+    width: 738px;
+    margin: 0 auto;
+    color: #FFF;
+}
+
+h2{
+        color: rgb(213, 32, 71);
+        font-size: 48px;
+        font-weight: 700;
+}
+
+h3 {
+    color: rgb(0, 0, 0);
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.section2{
+    background-color: rgba(239, 248, 246, 1);
+    padding: 85px 0 24px 0;;
+}
+
+.content{
+    border-radius: 8px 0px 0px 8px;
+    background: rgba(229, 229, 229, 1);
+    padding: 24px;
+    margin-top: 40px;
+    background-position: right center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(../img/firstimg.jpg)
+}
+
+.content p {
+    width: 507px;
+    color: rgba(0, 0, 0, 1);
+    font-size: 24px;
+    margin-top: 24px;
+}
+
+.section3{
+    background-color: rgba(255, 255, 255, 1);
+    padding: 80px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+
+.card_content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+    gap: 24px;
+}
+
+
+.card {
+    border-radius: 8px;
+    border: 2px solid rgb(229, 229, 229);
+    padding: 24px;
+    width: 322px;
+}
+
+.card img {
+    width: 274px;
+    height: auto;
+}
+
+.card_content p {
+    color: rgba(0, 0, 0, 1);
+    font-size: 16px;
+}
+
+.card_content a {
+    text-decoration-line: underline;
+    color: rgb(213, 32, 71);
+    font-size: 16px;
+}
+
+footer {
+    background: rgb(249, 247, 232);
+    padding: 32px 0;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
